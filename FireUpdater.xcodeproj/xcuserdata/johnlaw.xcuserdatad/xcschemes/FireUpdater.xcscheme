@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "67F474811CE0027D00A7B02F"
+               BlueprintIdentifier = "67283FFE1D09E79500724399"
                BuildableName = "FireUpdater.app"
                BlueprintName = "FireUpdater"
                ReferencedContainer = "container:FireUpdater.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "67F474811CE0027D00A7B02F"
+            BlueprintIdentifier = "67283FFE1D09E79500724399"
             BuildableName = "FireUpdater.app"
             BlueprintName = "FireUpdater"
             ReferencedContainer = "container:FireUpdater.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "67F474811CE0027D00A7B02F"
+            BlueprintIdentifier = "67283FFE1D09E79500724399"
             BuildableName = "FireUpdater.app"
             BlueprintName = "FireUpdater"
             ReferencedContainer = "container:FireUpdater.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "67F474811CE0027D00A7B02F"
+            BlueprintIdentifier = "67283FFE1D09E79500724399"
             BuildableName = "FireUpdater.app"
             BlueprintName = "FireUpdater"
             ReferencedContainer = "container:FireUpdater.xcodeproj">
