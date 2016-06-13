@@ -17,7 +17,7 @@
 		6738641A1D09FD840017F9C5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673864191D09FD840017F9C5 /* CFNetwork.framework */; };
 		6738641C1D09FD8F0017F9C5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6738641B1D09FD8F0017F9C5 /* Security.framework */; };
 		6738641E1D09FD9A0017F9C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6738641D1D09FD9A0017F9C5 /* SystemConfiguration.framework */; };
-		67CE36501D0B7D81001A4ADA /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CE364F1D0B7D80001A4ADA /* Firebase.framework */; };
+		67CE36511D0B82A7001A4ADA /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CE364F1D0B7D80001A4ADA /* Firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		673864191D09FD840017F9C5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		6738641B1D09FD8F0017F9C5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6738641D1D09FD9A0017F9C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		67CE364F1D0B7D80001A4ADA /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../Firebase.framework; sourceTree = "<group>"; };
+		67CE364F1D0B7D80001A4ADA /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67CE36501D0B7D81001A4ADA /* Firebase.framework in Frameworks */,
+				67CE36511D0B82A7001A4ADA /* Firebase.framework in Frameworks */,
 				673864181D09FD7C0017F9C5 /* libicucore.tbd in Frameworks */,
 				673864161D09FD710017F9C5 /* libc++.tbd in Frameworks */,
 				6738641A1D09FD840017F9C5 /* CFNetwork.framework in Frameworks */,
@@ -289,6 +289,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FireUpdaterv2",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FireUpdater",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/FireUpdater/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -306,6 +307,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FireUpdaterv2",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FireUpdater",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/FireUpdater/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
